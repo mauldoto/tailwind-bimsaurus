@@ -590,6 +590,22 @@ video {
   height: 39.1rem;
 }
 
+.w--price {
+  width: 50.500rem;
+}
+
+.h--price {
+  height: 55.1rem;
+}
+
+.w--price-photo {
+  width: 34.375rem;
+}
+
+.h--price-photo {
+  height: 33.403125rem;
+}
+
 .space-y-0 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
@@ -31228,6 +31244,22 @@ nav *{
     height: 39.1rem;
   }
 
+  .sm\:w--price {
+    width: 50.500rem;
+  }
+
+  .sm\:h--price {
+    height: 55.1rem;
+  }
+
+  .sm\:w--price-photo {
+    width: 34.375rem;
+  }
+
+  .sm\:h--price-photo {
+    height: 33.403125rem;
+  }
+
   .sm\:space-y-0 > :not([hidden]) ~ :not([hidden]){
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
@@ -61778,6 +61810,22 @@ nav *{
 
   .md\:h--30 {
     height: 39.1rem;
+  }
+
+  .md\:w--price {
+    width: 50.500rem;
+  }
+
+  .md\:h--price {
+    height: 55.1rem;
+  }
+
+  .md\:w--price-photo {
+    width: 34.375rem;
+  }
+
+  .md\:h--price-photo {
+    height: 33.403125rem;
   }
 
   .md\:space-y-0 > :not([hidden]) ~ :not([hidden]){
@@ -92332,6 +92380,22 @@ nav *{
     height: 39.1rem;
   }
 
+  .lg\:w--price {
+    width: 50.500rem;
+  }
+
+  .lg\:h--price {
+    height: 55.1rem;
+  }
+
+  .lg\:w--price-photo {
+    width: 34.375rem;
+  }
+
+  .lg\:h--price-photo {
+    height: 33.403125rem;
+  }
+
   .lg\:space-y-0 > :not([hidden]) ~ :not([hidden]){
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
@@ -122884,6 +122948,22 @@ nav *{
     height: 39.1rem;
   }
 
+  .xl\:w--price {
+    width: 50.500rem;
+  }
+
+  .xl\:h--price {
+    height: 55.1rem;
+  }
+
+  .xl\:w--price-photo {
+    width: 34.375rem;
+  }
+
+  .xl\:h--price-photo {
+    height: 33.403125rem;
+  }
+
   .xl\:space-y-0 > :not([hidden]) ~ :not([hidden]){
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
@@ -153434,6 +153514,22 @@ nav *{
 
   .\32xl\:h--30 {
     height: 39.1rem;
+  }
+
+  .\32xl\:w--price {
+    width: 50.500rem;
+  }
+
+  .\32xl\:h--price {
+    height: 55.1rem;
+  }
+
+  .\32xl\:w--price-photo {
+    width: 34.375rem;
+  }
+
+  .\32xl\:h--price-photo {
+    height: 33.403125rem;
   }
 
   .\32xl\:space-y-0 > :not([hidden]) ~ :not([hidden]){

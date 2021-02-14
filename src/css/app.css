@@ -19,5 +19,19 @@ nav *{
         .h--30 {
             height: 39.1rem;
         }
+
+        .w--price {
+            width: 50.500rem;
+        }
+        .h--price {
+            height: 55.1rem;
+        }
+
+        .w--price-photo {
+            width: 34.375rem;
+        }
+        .h--price-photo {
+            height: 33.403125rem;
+        }
     }
 }
