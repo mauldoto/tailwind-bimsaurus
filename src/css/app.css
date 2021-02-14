@@ -10,3 +10,14 @@
 nav *{
     font-family: 'roboto', sans-serif;
 }
+
+@layer components {
+    @responsive {
+        .w--30 {
+         width: 30.500rem;
+        }
+        .h--30 {
+            height: 39.1rem;
+        }
+    }
+}

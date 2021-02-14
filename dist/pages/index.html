@@ -11,7 +11,7 @@
 
 <body>
     <!-- START: Header Navbar -->
-    <header class="w-full h-20 bg-yellow-900">
+    <header class="w-full h-20 bg-yellow-900 sticky inset-0 z-50">
         <Nav class="container mx-auto py-3">
             <div class="flex items-center justify-between px-4">
                 <div class="w-52 py-2 md:py-0 md:w-64 flex items-center">
@@ -19,7 +19,7 @@
                 </div>
                 <div class="w-auto">
                     <ul class="fixed inset-0 flex flex-row invisible lg:visible lg:relative">
-                        <li class="mr-16 py-6 md:py-0 text-white text-xl">
+                        <li class="mr-16 py-6 md:py-0 text-white text-xl hover:text-black">
                             <a href="#">Home</a>
                         </li>
                         <li class="mr-16 py-6 md:py-0 text-white text-xl">
@@ -68,7 +68,7 @@
                     <span class="mx-2">O</span>
                 </div>
             </div>
-            <div class="inset-0 hero-caption absolute container mx-auto px-4 z-50">
+            <div class="inset-0 hero-caption absolute container mx-auto px-4 z-20">
                 <h1 class="text-white mt-10 md:mt-20 text-3xl md:text-5xl font-bold">Selamat Datang di Captain Marvel
                 </h1>
                 <h5 class="text-white mt-5 text-lg md:text-2xl font-medium md:w-2/3 lg:w-1/2 text-justify">
@@ -98,9 +98,9 @@
     <!-- START: Section Program -->
     <section class="w-full">
         <div class="container mx-auto">
-            <div class="section-title flex flex-col items-center justify-center m-2">
+            <div class="section-title flex flex-col items-center justify-center mt-10">
                 <h1 class="font-bold text-3xl md:text-5xl">Program</h1>
-                <h6 class="m-2.5 font-normal text-lg md:text-xl max-w-full md:w-7/12 text-center">Captain Adventure
+                <h6 class="m-4 font-normal text-lg md:text-xl max-w-full md:w-7/12 text-center">Captain Adventure
                     memiliki
                     program
                     yang menarik dan
@@ -108,32 +108,78 @@
                     lebih
                     jelasnya bisa lihat di bawah ini</h6>
             </div>
-            <div class="mt-10">
-                <div class="section-content flex flex-col md:flex-row">
-                    <div class="flex flex-col md:flex-row items-center">
-                        <div class="program-illu mx-2">
-                            <div class="w-full md:w-10/12 bg-yellow-300 bg-opacity-25 h-full relative">
-                                <img class="relative h-full -right-10" src="../assets/content/Adventure.png" alt="">
-                            </div>
+            <div class="program-contents">
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="program-illu md:pr-20 md:py-10 relative">
+                        <img class="absolute w-full inset-0 md:-right-20" src=" ../assets/content/Adventure.png" alt="">
+                        <div class="w-96 h-96 md:w--30 md:h--30 bg-yellow-300 bg-opacity-25">
                         </div>
-                        <div class="program-text mx-2">
-                            <div class="program-title">
-                                <h3> Adventure </h3>
-                            </div>
-                            <div class="program-description mt-10">
-                                <p> Adventure memiliki empat buah program
-                                    unggulan yang menarik dan seru untuk
-                                    anda nikmati bersama dengan keluarga
-                                    atau teman </p>
-                            </div>
-                            <div class="program-description mt-10">
-                                <ul>
-                                    <li class="mb-5">makan</li>
-                                    <li class="mb-5">makan</li>
-                                    <li class="mb-5">makan</li>
-                                    <li class="mb-5">makan</li>
-                                </ul>
-                            </div>
+                    </div>
+                    <div class="program-text p-10 md:px-28">
+                        <div class="program-title">
+                            <h3 class="font-bold text-2xl md:text-4xl text-yellow-900"> Adventure </h3>
+                        </div>
+                        <div class="program-description mt-10">
+                            <p class="font-medium md:text-xl"> Adventure memiliki empat buah program
+                                unggulan yang menarik dan seru untuk
+                                anda nikmati bersama dengan keluarga
+                                atau teman </p>
+                        </div>
+                        <div class="program-description mt-10">
+                            <ul>
+                                <li class="mb-5 text-lg font-medium"><span
+                                        class="w-7 h-7 mr-4 rounded-full border-yellow-900 bg-yellow-900">&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+                                    Outbound</li>
+                                <li class="mb-5 text-lg font-medium"><span
+                                        class="w-7 h-7 mr-4 rounded-full border-yellow-900 bg-yellow-900">&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+                                    Rafting
+                                </li>
+                                <li class="mb-5 text-lg font-medium"><span
+                                        class="w-7 h-7 mr-4 rounded-full border-yellow-900 bg-yellow-900">&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+                                    Paintball
+                                </li>
+                                <li class="mb-5 text-lg font-medium"><span
+                                        class="w-7 h-7 mr-4 rounded-full border-yellow-900 bg-yellow-900">&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+                                    Offroad
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col-reverse md:flex-row items-center">
+                    <div class="program-text p-10 md:px-28">
+                        <div class="program-title">
+                            <h3 class="font-bold text-2xl md:text-4xl text-yellow-900"> Adventure </h3>
+                        </div>
+                        <div class="program-description mt-10">
+                            <p class="font-medium md:text-xl"> Adventure memiliki empat buah program
+                                unggulan yang menarik dan seru untuk
+                                anda nikmati bersama dengan keluarga
+                                atau teman </p>
+                        </div>
+                        <div class="program-description mt-10">
+                            <ul>
+                                <li class="mb-5 text-lg font-medium"><span
+                                        class="w-7 h-7 mr-4 rounded-full border-yellow-900 bg-yellow-900">&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+                                    Outbound</li>
+                                <li class="mb-5 text-lg font-medium"><span
+                                        class="w-7 h-7 mr-4 rounded-full border-yellow-900 bg-yellow-900">&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+                                    Rafting
+                                </li>
+                                <li class="mb-5 text-lg font-medium"><span
+                                        class="w-7 h-7 mr-4 rounded-full border-yellow-900 bg-yellow-900">&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+                                    Paintball
+                                </li>
+                                <li class="mb-5 text-lg font-medium"><span
+                                        class="w-7 h-7 mr-4 rounded-full border-yellow-900 bg-yellow-900">&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+                                    Offroad
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="program-illu md:pl-20 md:py-10 relative">
+                        <img class="absolute w-full inset-0 md:-left-24" src=" ../assets/content/Training.png" alt="">
+                        <div class="w-96 h-96 md:w--30 md:h--30 bg-yellow-300 bg-opacity-25">
                         </div>
                     </div>
                 </div>
@@ -141,6 +187,143 @@
         </div>
     </section>
     <!-- END: Section Program -->
+
+    <!-- START: Section Offers -->
+    <section class="w-full">
+        <div class="container mx-auto">
+            <div class="section-title flex flex-col items-center justify-center mt-10">
+                <h1 class="font-bold text-3xl md:text-5xl text-center">Apa yang kamu <br class="md:hidden"> dapatkan ?
+                </h1>
+                <h6 class="m-4 font-normal text-lg md:text-xl max-w-full md:w-7/12 text-center">Enam point yang akan
+                    kamu dapatkan setelah mengikuti program dari
+                    Captain Adventure antara lain seperti di bawah ini</h6>
+            </div>
+            <div class="offers-contents">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-14 mx-10 md:mx-16 p-10">
+                    <div class="bg-gray-100 rounded-md p-5">
+                        <div class="flex flex-col items-center">
+                            <div class="offer-title my-3">
+                                <h5 class="font-medium">Kebahagiaan</h5>
+                            </div>
+                            <div class="offer-desc">
+                                <p class="text-center">Bahagia bisa diperoleh
+                                    dari, petualangan
+                                    bersama.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 rounded-md p-5">
+                        <div class="flex flex-col items-center">
+                            <div class="offer-title my-3">
+                                <h5 class="font-medium">Kebahagiaan</h5>
+                            </div>
+                            <div class="offer-desc">
+                                <p class="text-center">Bahagia bisa diperoleh
+                                    dari, petualangan
+                                    bersama.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 rounded-md p-5">
+                        <div class="flex flex-col items-center">
+                            <div class="offer-title my-3">
+                                <h5 class="font-medium">Kebahagiaan</h5>
+                            </div>
+                            <div class="offer-desc">
+                                <p class="text-center">Bahagia bisa diperoleh
+                                    dari, petualangan
+                                    bersama.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 rounded-md p-5">
+                        <div class="flex flex-col items-center">
+                            <div class="offer-title my-3">
+                                <h5 class="font-medium">Kebahagiaan</h5>
+                            </div>
+                            <div class="offer-desc">
+                                <p class="text-center">Bahagia bisa diperoleh
+                                    dari, petualangan
+                                    bersama.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 rounded-md p-5">
+                        <div class="flex flex-col items-center">
+                            <div class="offer-title my-3">
+                                <h5 class="font-medium">Kebahagiaan</h5>
+                            </div>
+                            <div class="offer-desc">
+                                <p class="text-center">Bahagia bisa diperoleh
+                                    dari, petualangan
+                                    bersama.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 rounded-md p-5">
+                        <div class="flex flex-col items-center">
+                            <div class="offer-title my-3">
+                                <h5 class="font-medium">Kebahagiaan</h5>
+                            </div>
+                            <div class="offer-desc">
+                                <p class="text-center">Bahagia bisa diperoleh
+                                    dari, petualangan
+                                    bersama.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END: Section Offers -->
+
+    <!-- START: Section Footer -->
+    <footer class="w-full bg-yellow-900">
+        <div class="container mx-auto">
+            <div class="p-10">
+                <div class="grid md:grid-cols-3">
+                    <div class="footer-contacts flex flex-col items-start text-white">
+                        <div class="footer-contact-title">
+                            <h3 class="font-semibold text-2xl">Social Media</h3>
+                        </div>
+                        <div class="footer-contact-items my-2">
+                            <ul>
+                                <li class="my-3 flex items-center">
+                                    Captain Adventures
+                                </li>
+                                <li class="my-3"> <span class="mr-1">
+
+                                    </span> captainadventur@gmail.com</li>
+                                <li class="my-3"> <span class="mr-1">
+
+                                    </span> CaptAdventurer</li>
+                                <li class="my-3"> <span class="mr-1">
+
+                                    </span> +6281227812003</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-contacts flex flex-col items-start text-white">
+                        <div class="footer-contact-title">
+                            <h3 class="font-semibold text-2xl">Alamat Kantor</h3>
+                        </div>
+                        <div class="footer-contact-items my-2">
+                            Jalan. Nusantara Sakti No 11. Baturaden Selatan,
+                            Purwokerto - Jawa Tengah,
+                            Indonesia
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-end">
+                        <div class="w-52 py-2 md:py-0 md:w-80 flex items-center">
+                            <img src="../assets/logo/Group 61.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END: Section Footer -->
 </body>
 
 </html>

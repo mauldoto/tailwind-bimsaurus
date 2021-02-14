@@ -582,6 +582,14 @@ video {
   }
 }
 
+.w--30 {
+  width: 30.500rem;
+}
+
+.h--30 {
+  height: 39.1rem;
+}
+
 .space-y-0 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
@@ -31212,6 +31220,14 @@ nav *{
     }
   }
 
+  .sm\:w--30 {
+    width: 30.500rem;
+  }
+
+  .sm\:h--30 {
+    height: 39.1rem;
+  }
+
   .sm\:space-y-0 > :not([hidden]) ~ :not([hidden]){
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
@@ -61754,6 +61770,14 @@ nav *{
     .md\:container{
       max-width: 1536px;
     }
+  }
+
+  .md\:w--30 {
+    width: 30.500rem;
+  }
+
+  .md\:h--30 {
+    height: 39.1rem;
   }
 
   .md\:space-y-0 > :not([hidden]) ~ :not([hidden]){
@@ -92300,6 +92324,14 @@ nav *{
     }
   }
 
+  .lg\:w--30 {
+    width: 30.500rem;
+  }
+
+  .lg\:h--30 {
+    height: 39.1rem;
+  }
+
   .lg\:space-y-0 > :not([hidden]) ~ :not([hidden]){
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
@@ -122844,6 +122876,14 @@ nav *{
     }
   }
 
+  .xl\:w--30 {
+    width: 30.500rem;
+  }
+
+  .xl\:h--30 {
+    height: 39.1rem;
+  }
+
   .xl\:space-y-0 > :not([hidden]) ~ :not([hidden]){
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
@@ -153386,6 +153426,14 @@ nav *{
     .\32xl\:container{
       max-width: 1536px;
     }
+  }
+
+  .\32xl\:w--30 {
+    width: 30.500rem;
+  }
+
+  .\32xl\:h--30 {
+    height: 39.1rem;
   }
 
   .\32xl\:space-y-0 > :not([hidden]) ~ :not([hidden]){
