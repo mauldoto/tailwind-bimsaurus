@@ -8,6 +8,11 @@ module.exports = {
   presets: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    extend: {
+      backgroundOpacity: {
+        44: "0.44",
+      },
+    },
     screens: {
       sm: "640px",
       md: "768px",
@@ -23,7 +28,7 @@ module.exports = {
       white: colors.white,
       gray: colors.coolGray,
       red: colors.red,
-      yellow: colors.amber,
+      yellow: { ...colors.yellow, 450: "#FBBC04", 900: "#FF7A00" },
       green: colors.emerald,
       blue: colors.blue,
       indigo: colors.indigo,
