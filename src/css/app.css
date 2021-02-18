@@ -11,6 +11,10 @@ nav * {
   font-family: "roboto", sans-serif;
 }
 
+.packet-content h2 {
+    @apply font-bold text-lg md:text-2xl;
+}
+
 @layer components {
   @responsive {
     .w--30 {
@@ -19,14 +23,12 @@ nav * {
     .h--30 {
       height: 39.1rem;
     }
-
     .w--price {
       width: 50.5rem;
     }
     .h--price {
       height: 55.1rem;
     }
-
     .w--price-photo {
       width: 34.375rem;
     }
@@ -38,6 +40,12 @@ nav * {
     }
     .w--gallery-item {
       width: 400px;
+    }
+    .w--packet-photo {
+            width: 45rem;
+    }
+    .h--packet-photo {
+        height: 35rem;
     }
   }
 }
