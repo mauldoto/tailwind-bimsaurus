@@ -615,7 +615,7 @@ video {
 }
 
 .w--packet-photo {
-  width: 45rem;
+  width: 100rem;
 }
 
 .h--packet-photo {
@@ -31494,7 +31494,7 @@ nav * {
   }
 
   .sm\:w--packet-photo {
-    width: 45rem;
+    width: 100rem;
   }
 
   .sm\:h--packet-photo {
@@ -62274,7 +62274,7 @@ nav * {
   }
 
   .md\:w--packet-photo {
-    width: 45rem;
+    width: 100rem;
   }
 
   .md\:h--packet-photo {
@@ -93054,7 +93054,7 @@ nav * {
   }
 
   .lg\:w--packet-photo {
-    width: 45rem;
+    width: 100rem;
   }
 
   .lg\:h--packet-photo {
@@ -123834,7 +123834,7 @@ nav * {
   }
 
   .xl\:w--packet-photo {
-    width: 45rem;
+    width: 100rem;
   }
 
   .xl\:h--packet-photo {
@@ -154614,7 +154614,7 @@ nav * {
   }
 
   .\32xl\:w--packet-photo {
-    width: 45rem;
+    width: 100rem;
   }
 
   .\32xl\:h--packet-photo {
