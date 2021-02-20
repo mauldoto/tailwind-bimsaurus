@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@900&display=swap");
 
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
@@ -583,7 +583,7 @@ video {
 }
 
 .w--30 {
-  width: 30.500rem;
+  width: 30.5rem;
 }
 
 .h--30 {
@@ -591,7 +591,7 @@ video {
 }
 
 .w--price {
-  width: 50.500rem;
+  width: 50.5rem;
 }
 
 .h--price {
@@ -604,6 +604,14 @@ video {
 
 .h--price-photo {
   height: 33.403125rem;
+}
+
+.h--gallery-item {
+  height: 350px;
+}
+
+.w--gallery-item {
+  width: 400px;
 }
 
 .w--packet-photo {
@@ -31398,11 +31406,11 @@ video {
 }
 
 * {
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
 }
 
-nav *{
-  font-family: 'roboto', sans-serif;
+nav * {
+  font-family: "roboto", sans-serif;
 }
 
 .packet-content h2 {
@@ -31454,7 +31462,7 @@ nav *{
   }
 
   .sm\:w--30 {
-    width: 30.500rem;
+    width: 30.5rem;
   }
 
   .sm\:h--30 {
@@ -31462,7 +31470,7 @@ nav *{
   }
 
   .sm\:w--price {
-    width: 50.500rem;
+    width: 50.5rem;
   }
 
   .sm\:h--price {
@@ -31475,6 +31483,14 @@ nav *{
 
   .sm\:h--price-photo {
     height: 33.403125rem;
+  }
+
+  .sm\:h--gallery-item {
+    height: 350px;
+  }
+
+  .sm\:w--gallery-item {
+    width: 400px;
   }
 
   .sm\:w--packet-photo {
@@ -62226,7 +62242,7 @@ nav *{
   }
 
   .md\:w--30 {
-    width: 30.500rem;
+    width: 30.5rem;
   }
 
   .md\:h--30 {
@@ -62234,7 +62250,7 @@ nav *{
   }
 
   .md\:w--price {
-    width: 50.500rem;
+    width: 50.5rem;
   }
 
   .md\:h--price {
@@ -62247,6 +62263,14 @@ nav *{
 
   .md\:h--price-photo {
     height: 33.403125rem;
+  }
+
+  .md\:h--gallery-item {
+    height: 350px;
+  }
+
+  .md\:w--gallery-item {
+    width: 400px;
   }
 
   .md\:w--packet-photo {
@@ -92998,7 +93022,7 @@ nav *{
   }
 
   .lg\:w--30 {
-    width: 30.500rem;
+    width: 30.5rem;
   }
 
   .lg\:h--30 {
@@ -93006,7 +93030,7 @@ nav *{
   }
 
   .lg\:w--price {
-    width: 50.500rem;
+    width: 50.5rem;
   }
 
   .lg\:h--price {
@@ -93019,6 +93043,14 @@ nav *{
 
   .lg\:h--price-photo {
     height: 33.403125rem;
+  }
+
+  .lg\:h--gallery-item {
+    height: 350px;
+  }
+
+  .lg\:w--gallery-item {
+    width: 400px;
   }
 
   .lg\:w--packet-photo {
@@ -123770,7 +123802,7 @@ nav *{
   }
 
   .xl\:w--30 {
-    width: 30.500rem;
+    width: 30.5rem;
   }
 
   .xl\:h--30 {
@@ -123778,7 +123810,7 @@ nav *{
   }
 
   .xl\:w--price {
-    width: 50.500rem;
+    width: 50.5rem;
   }
 
   .xl\:h--price {
@@ -123791,6 +123823,14 @@ nav *{
 
   .xl\:h--price-photo {
     height: 33.403125rem;
+  }
+
+  .xl\:h--gallery-item {
+    height: 350px;
+  }
+
+  .xl\:w--gallery-item {
+    width: 400px;
   }
 
   .xl\:w--packet-photo {
@@ -154542,7 +154582,7 @@ nav *{
   }
 
   .\32xl\:w--30 {
-    width: 30.500rem;
+    width: 30.5rem;
   }
 
   .\32xl\:h--30 {
@@ -154550,7 +154590,7 @@ nav *{
   }
 
   .\32xl\:w--price {
-    width: 50.500rem;
+    width: 50.5rem;
   }
 
   .\32xl\:h--price {
@@ -154563,6 +154603,14 @@ nav *{
 
   .\32xl\:h--price-photo {
     height: 33.403125rem;
+  }
+
+  .\32xl\:h--gallery-item {
+    height: 350px;
+  }
+
+  .\32xl\:w--gallery-item {
+    width: 400px;
   }
 
   .\32xl\:w--packet-photo {
